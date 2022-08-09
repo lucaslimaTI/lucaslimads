@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial;
+}
+body * {
+    box-sizing: border-box;
+}
+.fundo{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #213635, #0f7d7e);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+table{
+    padding: 75px;
+    position: relative;
+    background-color: transparent;
+    border-radius: 14px;
+    border: none;
+    height: 60vh;
+    color: #2b2d42fa;
+
+}
+
+.btn:hover{
+    transition: 1s;
+    color: #f8db38;
+    text-shadow: 0px 0px 25px #f8db38d8;
+    box-shadow: 2px 3px 15px #a38f1af1;
+}
+
+.fundo2{
+    width: 90%;
+    min-height: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #edf2f4;
+    box-shadow: 0px 0px 30px #000000;
+}
+.linhas-tb{
+    padding-top: 10px;
+    vertical-align: top;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: 2px 3px 6px #000000;
+    padding: 12px;
+    background-color: #0f7d7e;
+    font-weight: 850;
+    font-size: 13px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    width: 65%;
+}
+.botao{
+    padding-top: 25px;
+    vertical-align: bottom;
+}
+.sombra-colum{
+    box-shadow: 0px 4px 16px -8px #000000;
+}
+.titulo{
+    background-color: #76b5a0;
+    border: 1px solid #2b2d42;
+    border-radius: 10px;
+    padding-left: 40px;
+    
+}
+.descricao{
+    outline: none;
+    box-shadow: 0px 5px 10px #572929;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff7575;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 9vh;
+    font-size: 17px;
+    color: #edf2f4;
+}
+.input02{
+    font-size: 14px;
+    outline: none;
+    box-shadow: 0px 5px 10px #572929;
+    width: 65%;
+    padding: 18px;
+    color: #edf2f4;
+    border: none;
+    background-color: #ff7575;
+    border-radius: 9px;
+
+}
+.tabletd{
+    padding-top: 30px;
+}
+input::placeholder{
+    color: #f3f6f7ce;
+}
+.resposta{
+    vertical-align: top;
+    padding-bottom: 10vh;
+    padding-top: 14px;
+    padding-left: 10px;
+    background-color: #0f7d7e;
+    color: #edf2f4;
+    border-radius: 6px;
+}
+.espaco{
+    padding-left: 2vw;
+    padding-top: 10px;
+}
+.td-valor{
+    padding-top: 2vh;
+    padding-right: 0vw;
+    background-color: #0f7d7e;
+    color: #edf2f4;
+    padding-bottom: 2vh;
+    border-radius: 6px;
+    border: none;
+    padding-left: 2vw;
+}
+.td-dias{
+    background-color: #0f7d7e;
+    color: #edf2f4;
+    padding-left: 2vw;
+    border-radius: 6px;
+    border: none;
+    padding-right: 30px;
+}

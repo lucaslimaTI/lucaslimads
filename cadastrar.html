@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel = "stylesheet" href="cadastro.css">
+</head>
+<body link="#34d5eb" alink="cyan" vlink="#34d5eb">
+    <main>
+        <form action="cadastrar.php" method="POST">
+            <div class="cadastro">
+                <form>
+                <table border="0" cellspacing="28">
+                    <tr>
+                        <td align="left" align="middle">
+                            <p class="titulo"><font size="5px" class="fontw">CADASTRO </font></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="middle">
+                            <input type="text" name="nome" placeholder="Nome" required class="text_input" id="nome">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="middle">
+                            <input type="text" name="email" size="43px" placeholder="E-mail:" required class="text_input" id="e-mail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="middle">
+                            <input type="text" name="login" size="43px" placeholder="Usuario:" required class="text_input" id="usuario">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="middle">
+                            <input type="password" name="senha" size="43px" placeholder="Senha:" required class="text_input" id="senha">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn-login" type="submit" onclick="logar(); return false">Cadastrar</button>
+                        </td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+        </form>
+    </main>
+    <script>
+        function logar(){
+                alert('Cadastro realizado com sucesso');
+                location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

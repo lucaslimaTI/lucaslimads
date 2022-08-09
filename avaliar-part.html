@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliar participacao</title>
+    <link rel="stylesheet" href="avaliar-part.css">
+</head>
+<body>
+    <div class="fundo">
+        <div class="fundo2">
+        <div class="semi-fundo">
+            <form>
+            <table class="sombra-colum" border="0">
+                <tr>
+                    <td class="titulo" colspan="3"><h1><font size="6px">Avaliação da participação</font></h1></td>
+                </tr>
+                <tr>
+                    <td class="linhas-tb" colspan="3">
+                       - Leia as respostas abaixo com atenção e avalie a sugestão -
+                    </td>
+                    <tr>
+                        <td colspan="3" class="resposta">
+                            Resposta selecionada com os detalhes da sugestão...
+                        </td>
+                        <tr><td class="espaco" colspan="3"></td></tr>
+                    </tr>
+                    <tr>
+                        <td class="td-dias">90 (Dias)</td>
+                        <td class="espaco"></td>
+                        <td class="td-valor">R$ 18.000,00</td>
+                    </tr>
+                    <tr>
+                        <td class="tabletd" colspan="3">
+                            <input type="text" class="descricao" required id="desc-sugest" name="desc-sugest" placeholder="Detalhes da sua nota para avaliar esta sugestão:">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tabletd" colspan="3">
+                            <input class="input02" type="text" required placeholder="Digite sua nota final de 0 á 100:" name="tempo" id="tempo">
+                        </td>
+                    </tr>
+                    <tr>
+                    <td class="botao" colspan="3"><button class="btn" onclick="enviar(); return false"> Enviar Nota</button></td>
+                    </tr>
+            </table>
+        </form>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        function enviar() {
+
+                alert('Nota enviada com sucesso');
+                location.href = "para-avaliacao.html";
+        }
+    </script>
+
+</body>
+</html>

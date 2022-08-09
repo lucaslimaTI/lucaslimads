@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Arial;
+}
+body * {
+    box-sizing: border-box;
+}
+.img-left{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-campanha{
+    width: 40vw;
+}
+.main-home{
+    width: 100vw;
+    height: 100vh;
+    background: #f59c29;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+.center-campanha{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-campanha{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px 30px;
+   background: #663ccf;
+   border-radius: 20px;
+   border:none;
+   box-shadow: 0px 1px 35px #08050ac2;
+}
+.card-campanha > h1{
+    color: #fafffd;
+    font-weight: 850;
+    margin: 0;
+}
+.textfield{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12px 0px;
+}
+.textfield > select{
+    width: 32vw;
+    border:none;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgb(115, 61, 202);
+    color: rgb(228, 255, 246);
+    font-size: 16px;
+    box-shadow: 0px 2px 30px #1f1f1fc4;
+    outline: none;
+    padding-left: 15px;
+}
+.textfield > input{
+    width: 32vw;
+    border:none;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #7f41e4;
+    color: rgb(228, 255, 246);
+    font-size: 16px;
+    box-shadow: 0px 6px 40px #161616c4;
+    outline: none;
+    padding-left: 15px;
+}
+.textfield > label{
+    color: #fffef4;
+    margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+    color: #bebebe;
+}
+.btn-salvar{
+    width: 32vw;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 810;
+    letter-spacing: 2px;
+    color: #4f1aa3;
+    background: #e69328;
+    cursor: pointer;
+    box-shadow: 0px 1px 44px -10px #e4942b;
+    justify-content: center;
+}
+@media only screen and (max-width: 950px){
+    .card-campanha{
+        width: 85%
+    }
+}
+@media only screen and (max-width: 600px){
+    .main-home{
+        flex-direction: column;
+    }
+    .img-left{
+        width: 100%;
+        height: auto;
+    }
+    .center-campanha{
+        width: 100%;
+        height: auto;
+    }
+    .img-campanha{
+        width: 50vw;
+    }
+    .card-campanha{
+        width: 90%
+    }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel = "stylesheet" href="stylecpy.css">
+</head>
+<body link="#34d5eb" alink="cyan" vlink="#34d5eb">
+    <main>
+        <form>
+            <div class="cadastro">
+                <table border="0" cellspacing="28">
+                    <tr>
+                        <td align="left" align="middle">
+                            <p class="titulo"><font size="5px" class="fontw">Seja bem vindo Sugestões.com </font></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="middle">
+                            <input type="text" name="email" placeholder="Digite seu e-mail:" required class="text_input" id="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="middle">
+                            <input type="password" name="senha" size="43px" placeholder="Digite sua senha:" required class="text_input" id="senha">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn-login" type="submit" onclick="logar(); return false">LOGIN</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">    
+                                <p class="esqueceu">Não possui um cadastro? <a href="cadastrar.html">clique aqui para se cadastrar</p></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </main>
+    <script>
+        function logar(){
+            
+                alert('Login realizado com sucesso - Seja Bem vindo');
+                location.href = "menu.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participar</title>
+    <link rel="stylesheet" href="style-participar.css">
+</head>
+<body>
+    <div class="fundo">
+        <div class="fundo2">
+        <div class="semi-fundo">
+            <form>
+            <table class="sombra-colum" border="0">
+                <tr>
+                    <td class="titulo" colspan="3"><h1><font size="6px">Participar</font></h1></td>
+                </tr>
+                <tr>
+                    <td class="linhas-tb">
+                        <b><p>Olá seja bem vindo e obrigado por participar da nossa campanha. </p> </b>
+                        Responda o questionario abaixo:
+                    </td>
+                    <tr>
+                        <td class="tabletd">
+                            <input type="text" class="descricao" required id="desc-sugest" name="desc-sugest" placeholder="Descreva sua sugestão aqui em detalhes*">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tabletd">
+                            <input class="input02" type="text" required placeholder="Tempo de implantação (dias)*" name="tempo" id="tempo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tabletd">
+                            <input class="input02" type="text" required placeholder="Custo total de implantação R$ 0 000.00*" name="custo" id="custo">
+                        </td>
+                    </tr>
+                    <tr>
+                    <td class="botao"><button class="btn" onclick="participar(); return false"> ENVIAR</button></td>
+                    </tr>
+            </table>
+        </form>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        function participar() {
+
+                alert('Participação feita com sucesso');
+                location.href = "minhas-camp.html";
+
+        }
+    </script>
+
+</body>
+</html>

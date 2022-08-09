@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar campanha</title>
+    <link rel="stylesheet" href="style-campanha.css">
+</head>
+<body>
+    <div class="main-home">
+        <div class="img-left">
+            <img src="campanha02.svg" alt="campanha-animacao" class="img-campanha">
+        </div>
+    <div class="center-campanha">
+        <div class="card-campanha">
+            <h1>Campanha</h1>
+            <div class="textfield">
+                <label for="nome">NOME</label>
+                <input type="text" name="nome" placeholder="Nome" required>
+            </div>
+            <div class="textfield">
+                <label for="descricao">DESCRIÇÃO</label>
+                <input type="text" name="descricao" placeholder="Descrição" required>
+            </div>
+            <div class="textfield">
+                <label for="dt-inicial">DATA INICIAL</label>
+                <input type="text" name="dt-inicial" placeholder="dd/mm/aaaa" required>
+            </div>
+            <div class="textfield">
+                <label for="dt-final">DATA FINAL</label>
+                <input type="text" name="dt-final" placeholder="dd/mm/aaaa" required>
+            </div>
+            <div class="textfield">
+                <label for="valor-premio">VALOR PRÊMIO</label>
+                <input type="text" name="valor-premio" id="valor-premio" placeholder="R$ 0 000.00">
+            </div>
+            <div class="textfield">
+                <label for="responsavel">RESPONSÁVEL</label>
+                <select name = "responsavel" required >                                
+                            <option selected>Selecione um responsável</option>
+                            <option>Renato Garcia</option>
+                            <option>James Reis</option>
+                            <option>Felipe Silva</option>
+                </select>
+            </div>
+                <button type="submit" name="enviar"class="btn-salvar" onclick="salvar(); return false">Salvar</button>
+        </div>
+    </div>
+    </div>
+    <script>
+        function salvar() {
+
+                alert('Campanha salva com sucesso');
+                location.href = "campanha.html";
+        }
+    </script>
+</body>
+</html>

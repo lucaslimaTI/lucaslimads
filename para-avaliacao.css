@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial;
+}
+body * {
+    box-sizing: border-box;
+}
+.fundo{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #ff6476, #e98596);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+table{ 
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    border-radius: 14px;
+    border: none;
+    width: 50vw;
+    height: 60vh;
+    color: #2b2d42;
+    bottom: 8vh;
+}
+table>tr{
+    border: none;
+    border-radius: 10px;
+}
+#linha2:hover{
+    transition: 1s;
+    border: 2px solid #2b2d42;
+    border-radius: 10px;
+}
+
+.fundo2{
+    width: 90%;
+    min-height: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #edf2f4;
+    box-shadow: 0px 0px 30px #330208;
+}
+.padding-{
+    padding: 30px;
+
+}
+.btn{
+    outline: none;
+    border: none;
+    border-top: 1px solid #edf2f4;
+    border-left: 2px solid #edf2f442;
+    border-radius: 12px;
+    color: #e0445e;
+    box-shadow: 2px 3px 5px #000000;
+    padding: 12px;
+    background-color: #2b2d42;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px #eb2f58c5;
+    font-weight: 800;
+    font-size: 11px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.botao{
+    vertical-align: bottom;
+    padding: 12px;
+    align-items: center;
+}
+.foto-responsavel{
+    border: none;
+}
+.sombra-colum{
+    box-shadow: 0px 2px 12px -7px #000000;
+}
+.titulo{
+    background-color: #ffe240;
+    border: 1px solid #2b2d42;
+    border-radius: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+.status{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.espaco{
+    padding: 5px;
+
+}
+#opcao:hover{
+    transition: 0.7s;
+    background-color: #d45167;
+    box-shadow: 0px 7px 25px #10111fc0;
+    color: #edf2f4;
+    border: 1px solid;
+    font-weight: 900;
+}
+.sessao{
+    padding: 16px;
+    border: none;
+    border-radius: 100px;
+    background-color: #d45167;
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+
+}
+.align-sessao{
+    padding: 2px;
+    text-align: right;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    outline: none;
+    transition: 0.8s;
+    color: #ffe240;
+    box-shadow:2px 2px 8px  rgb(122, 45, 71);
+    font-weight: 800px;
+}
+.btn-avaliar{
+    padding-left: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 22px;
+    background-color: #151b30;
+    color: #edf2f4;
+    border: none;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 660;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 18px #fff4b4;
+}
